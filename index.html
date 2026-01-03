@@ -3,22 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NexWork AI - Geleceği Tasarla</title>
+    <title>NexWork AI | Geleceği Tasarla</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header style="background:#1A2A3A; color:white; padding:20px; text-align:center;">
-        <h1>NexWork AI</h1>
-        <p>Geleceği Tasarla, Zekayı Yönet.</p>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="n">N</span><span class="w">W</span> NexWork AI
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hizmetler">Hizmetler</a></li>
+                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>NexWork AI</h1>
+            <p class="slogan">Geleceği Tasarla, Zekayı Yönet.</p>
+            <p class="desc">Yapay zekanın meslekler üzerindeki etkisini stratejik bir avantaja dönüştürüyoruz.</p>
+            <a href="#hizmetler" class="btn">Çözümleri Keşfedin</a>
+        </div>
     </header>
-    <section style="padding:50px; text-align:center; background:#F9F9F9;">
-        <h2 style="color:#2980B9;">Yapay Zeka Strateji Ajansı</h2>
-        <p style="color:#546e7a; max-width:600px; margin:auto;">Mesleklerin dönüşümünde akademik ve teknolojik rehberiniz. Geleceğin iş gücüne bugün hazırlanın.</p>
-        <br>
-        <div style="display:inline-block; background:#E67E22; color:white; padding:15px 30px; border-radius:5px; font-weight:bold;">Hizmetlerimizi Keşfedin</div>
+
+    <section id="hizmetler" class="services">
+        <div class="container">
+            <h2 class="section-title">Hizmetlerimiz</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Sektörel Analiz</h3>
+                    <p>Mesleğinizin YZ risk ve fırsat haritasını çıkarıyoruz.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Prompt Atölyesi</h3>
+                    <p>Verimliliği %50 artıran özel mühendislik eğitimleri.</p>
+                </div>
+                <div class="service-card">
+                    <h3>AI Entegrasyonu</h3>
+                    <p>Şirketlere özel yerel dil modelleri (LLM) kurulumu.</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer style="background:#1A2A3A; color:white; text-align:center; padding:20px; position:fixed; bottom:0; width:100%;">
+
+    <section id="iletisim" class="contact">
+        <div class="container">
+            <h2>İletişim</h2>
+            <p>Geleceğin iş dünyasına bugün adım atın.</p>
+            <p><strong>E-posta:</strong> info@nexworkai.com</p>
+        </div>
+    </section>
+
+    <footer>
         <p>&copy; 2026 NexWork AI. Tüm Hakları Saklıdır.</p>
     </footer>
+
 </body>
 </html>
